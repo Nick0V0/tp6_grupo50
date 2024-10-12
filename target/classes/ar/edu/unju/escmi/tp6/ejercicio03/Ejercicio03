@@ -9,14 +9,14 @@ f) Describa las características de todos los métodos de la clase CollectionCli
 
 Respuestas:
 
-a) No se dibuja la relación de agregación entre la clase ColletionProducto y Producto, porque en CollectionProducto se define como atributo al objeto Producto.
-b) La clase factura tiene dos atributos, los cuales tienen por nombre fecha y nroFecha. También el objeto Cliente asociado a la factura. 
-c) La relación que tienen se denomina composición, donde Factura contiene a Detalle. Puede existir una factura con uno o muchos detalles. No puede existir Detalle sin Factura. Es decir que, cada detalle pertenece a una única factura y no puede existir independientemente de ella. 
-d) La relación entre las clases Factura y Cliente, se denomina Asociación donde tiene una navegabilidad con dirección Cliente Factura con una multiciplidad de uno a uno o más. Es decir, cliente puede tener varias facturas y una factura pertenece a un único cliente. 
+a) No se dibuja la relación de agregación entre la clase ColletionProducto y Producto, porque ,en CollectionProducto se define como atributo al objeto Producto. 
+b) La clase factura tiene dos atributos, los cuales tienen por nombre fecha y nroFecha. También el objeto Cliente asociado a la factura.  
+c) La relación que tienen se denomina composición, donde Factura contiene a Detalle. Puede existir una factura con uno o muchos detalles. No puede existir Detalle sin Factura. Es decir que, cada detalle pertenece a una única factura y no puede existir independientemente de ella.  
+d) La relación entre las clases Factura y Cliente, se denomina Asociación donde tiene una navegabilidad con dirección Cliente Factura con una multiciplidad de uno a uno o más. Es decir, cliente puede tener varias facturas y una factura pertenece a un único cliente.  
 e) Los atributos de las clases Colletions con públicos para poder permitir un acceso directo a la información que contienen. 
 f) Características de los métodos de la clase CollectionClientes:
 agregarCliente: permite agregar un nuevo cliente a la colección.
 buscarCliente: permite encontrar un cliente especifico por medio de su dni, en la colección.
 precargarClientes: permite cargar la collection, de tal forma que no se encuentre vacía. 
-
+ 
 
